@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RemoteConfigManager : MonoBehaviour
 {
-    public int defaultLevelTime = 15;
+    public int defaultLevelTime = 20;
 
     public static int levelTime { get; private set; }
 
@@ -16,7 +16,7 @@ public class RemoteConfigManager : MonoBehaviour
 
         RemoteSettings.Completed += (b, b1, arg3) =>
         {
-            levelTime = RemoteSettings.GetInt("ammoStandardSpeed", defaultLevelTime);
+            levelTime = RemoteSettings.GetInt("levelTime", defaultLevelTime);
         };
     }
 }
