@@ -41,11 +41,18 @@ public class LevelManager : MonoBehaviour
 
     public Button nextLevel;
 
-    public GameObject playerStartPoint;
+    public Transform playerStartPoint;
+
+    public Transform player;
 
     public int currentLevel = 0;
 
     public int levelTime;
+
+    public PlayerMovment _playerMovment;
+
+    public int remaingTime;
+
 
     // Start is called before the first frame update
     void Start()
@@ -56,6 +63,8 @@ public class LevelManager : MonoBehaviour
         changeCameraPosition(topView);
         currentLevel = 0;
         levelTime = RemoteConfigManager.levelTime;
+        remaingTime = RemoteConfigManager.remaingTime;
+        Debug.Log(remaingTime);
     }
 
 
@@ -85,6 +94,12 @@ public class LevelManager : MonoBehaviour
         if (pow == true)
         {
             changeCameraPosition(powView);
+            _playerMovment.enabled = true;
+        }
+
+        if (pow == false)
+        {
+            _playerMovment.enabled = false;
         }
 
         if (Input.GetKeyDown(KeyCode.T))
@@ -103,6 +118,8 @@ public class LevelManager : MonoBehaviour
         startButtonGameObj.SetActive(false);
         showWinText.SetActive(false);
         didPlayerWon = false;
+        player.position = playerStartPoint.position;
+        player.rotation = playerStartPoint.rotation;
 //        var startPoint = playerStartPoint.transform;
 //
 //        transform.Translate(startPoint.position.x, startPoint.position.y, startPoint.position.z);
@@ -110,7 +127,7 @@ public class LevelManager : MonoBehaviour
 
         spawnTargets();
 
-        for (int i = 5; i >= 0; i--)
+        for (int i = remaingTime; i >= 0; i--)
         {
             remainTime.text = i.ToString();
             if (i == 0) remainTime.text = "";

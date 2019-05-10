@@ -25,24 +25,22 @@ public class PlayerMovment : MonoBehaviour
 
         if (Input.GetKeyDown("a"))
         {
-            Debug.Log("a");
-            StartCoroutine(changeRotation(-10));
+            StartCoroutine(changeRotation(-1));
         }
 
         if (Input.GetKeyDown("d"))
         {
-            Debug.Log("d");
-            StartCoroutine(changeRotation(10));
+            StartCoroutine(changeRotation(1));
         }
     }
 
 
     IEnumerator moveForward()
     {
-        for (int i = 0; i < 20; i++)
+        for (int i = 0; i < 40; i++)
         {
             transform.Translate(0.05f, 0, 0);
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForEndOfFrame();
         }
 
         yield break;
@@ -50,10 +48,10 @@ public class PlayerMovment : MonoBehaviour
 
     IEnumerator changeRotation(int rotate)
     {
-        for (int i = 0; i < 9; i++)
+        for (int i = 0; i < 90; i++)
         {
             transform.Rotate(0, rotate, 0);
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForEndOfFrame();
         }
 
         yield break;
