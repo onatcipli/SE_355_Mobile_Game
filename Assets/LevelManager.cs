@@ -115,6 +115,7 @@ public class LevelManager : MonoBehaviour
 
     IEnumerator clickHandle()
     {
+        Destroy(targetInstance);
         startButtonGameObj.SetActive(false);
         showWinText.SetActive(false);
         didPlayerWon = false;
@@ -188,7 +189,9 @@ public class LevelManager : MonoBehaviour
 
                 pow = false;
 
-                Destroy(targetInstance);
+                targetInstance.GetComponent<Target>().mesh.enabled = true;
+
+//                Destroy(targetInstance);
 
                 changeCameraPosition(topView);
 
