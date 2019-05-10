@@ -54,6 +54,11 @@ public class LevelManager : MonoBehaviour
     public int remaingTime;
 
 
+    
+    //TODO: Bölüm eklenecek 
+    //TODO: Konteynırlar reklendirilecek
+    //TODO: Lighting bakılacak (bake sorunu material ile ilgili olabilir)
+    
     // Start is called before the first frame update
     void Start()
     {
