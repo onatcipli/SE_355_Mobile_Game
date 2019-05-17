@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152fd2a4-8b38-483e-993b-4468f6c10393" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SE_355_Mobile_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE_355_Mobile_Game/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SE_355_Mobile_Game/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Target.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Target.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,8 +102,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/LevelManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="57" column="28" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+            <state relative-caret-position="345">
+              <caret line="93" column="67" lean-forward="true" selection-start-line="93" selection-start-column="67" selection-end-line="93" selection-end-column="67" />
               <folding>
                 <marker date="1557491654122" expanded="false" signature="6:234" ph="..." />
                 <marker date="1557491654122" expanded="true" signature="277:5458" ph="{...}" />
@@ -286,7 +283,7 @@
       <workItem from="1557477393691" duration="1352000" />
       <workItem from="1557487285624" duration="4070000" />
       <workItem from="1557993816713" duration="79000" />
-      <workItem from="1558078287942" duration="555000" />
+      <workItem from="1558078287942" duration="2938000" />
     </task>
     <task id="LOCAL-00001" summary="hot fix for remoteConfig">
       <created>1557487799574</created>
@@ -316,11 +313,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557491705871</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new update">
+      <created>1558078964330</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558078964330</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33889000" />
+    <option name="totallyTimeSpent" value="36272000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,7 +337,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17750533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -415,7 +418,8 @@
     <MESSAGE value="new value added to RemoteConfig and some adjustment related with player movement" />
     <MESSAGE value="when player loses shows the target location behavior added" />
     <MESSAGE value="todo things added!" />
-    <option name="LAST_COMMIT_MESSAGE" value="todo things added!" />
+    <MESSAGE value="new update" />
+    <option name="LAST_COMMIT_MESSAGE" value="new update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -514,6 +518,7 @@
           <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding>
             <marker date="1557472599564" expanded="false" signature="6:78" ph="..." />
+            <marker date="1557472599564" expanded="true" signature="115:1160" ph="{...}" />
             <marker date="1557472599564" expanded="true" signature="257:401" ph="{...}" />
             <marker date="1557472599564" expanded="true" signature="459:471" ph="{...}" />
             <marker date="1557472599564" expanded="true" signature="520:815" ph="{...}" />
@@ -539,8 +544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/LevelManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="57" column="28" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+        <state relative-caret-position="345">
+          <caret line="93" column="67" lean-forward="true" selection-start-line="93" selection-start-column="67" selection-end-line="93" selection-end-column="67" />
           <folding>
             <marker date="1557491654122" expanded="false" signature="6:234" ph="..." />
             <marker date="1557491654122" expanded="true" signature="277:5458" ph="{...}" />
