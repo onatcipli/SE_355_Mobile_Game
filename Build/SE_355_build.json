@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "SE_355_Mobile_Game",
+"dataUrl": "SE_355_build.data.unityweb",
+"wasmCodeUrl": "SE_355_build.wasm.code.unityweb",
+"wasmFrameworkUrl": "SE_355_build.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
